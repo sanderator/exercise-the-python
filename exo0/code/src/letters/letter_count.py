@@ -6,6 +6,21 @@ def letter_count(strng, letter):
     @param letter: The letter to count in the string.
     @return: The number of occurrences of the letter.
 
-    @author:
+    @author: T.J
     '''
-    pass
+    
+
+
+    count = 0
+
+    for l in strng:
+        if l == letter:
+            count +=1
+        
+    return count    
+
+
+
+
+
+print(letter_count("I know nothing", "i"))
