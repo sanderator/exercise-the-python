@@ -1,0 +1,3 @@
+Dans Structure de données élémentaire des listes
+  * expliquer le fonctionnement de chaque ligne des fonctions du module lireListe
+
