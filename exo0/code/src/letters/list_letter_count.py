@@ -1,4 +1,4 @@
-import # something
+from letter_count import letter_count
 
 
 def list_letter_count(lst, letter):
@@ -11,4 +11,11 @@ def list_letter_count(lst, letter):
 
     @author:
     '''
-    pass
+    count = 0
+    for el in lst:
+        count += letter_count(el, letter)
+    return count
+
+
+print(list_letter_count(['the', 'truth', 'is', 'out', 'there'], '
+                        '))

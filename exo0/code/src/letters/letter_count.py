@@ -8,4 +8,11 @@ def letter_count(strng, letter):
 
     @author:
     '''
-    pass
+    count = 0
+    for l in strng:
+        if l == letter:
+            count += 1
+    return count
+
+
+#print(letter_count('the truth is out there', ' '))
