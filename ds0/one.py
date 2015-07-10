@@ -1,7 +1,7 @@
-ph=input("une phrase") #1
+fichier = input("une phrase") #1
 
-i=0 #2
+i = 0 #2
 
-while i<len(ph) and ph[i] !=" " : #3
-    print(ph[i],end="") #4
-    i = i+1 #5
+while i < len(fichier) and fichier[i] != " " : #3
+    print(fichier[i], end="") #4
+    i += 1 #5

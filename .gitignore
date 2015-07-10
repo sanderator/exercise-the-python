@@ -1,13 +1,9 @@
-build/
-.classpath
-*.jar
 .~lock*
-.MF/
 *.pdf
 .project
 *.pyc
 __pycache__/
 .pydevproject
-.settings
+*.sublime-*
 *.tar
 *.tgz
